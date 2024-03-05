@@ -21,15 +21,12 @@ export default defineConfig({
       collapsed: false, 
       items: [
         { text: 'Visión General', link: '/get-start/overview' },   
-        { text: 'Instalación', link: '/get-start/installation' },                         
+        { text: 'Instalación', link: '/get-start/installation' },
+        { text: 'Inicio Rápido', link: '/get-start/quick-start' }                                
       ]
     }],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ecanquiz/how-to-code-in-javascript' }
+      { icon: 'github', link: 'https://github.com/ecanquiz/tanstack-query-vue' }
     ]
   }
 })
-
-
-
-

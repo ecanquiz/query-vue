@@ -1,5 +1,10 @@
 # Visión General
 
+
+:::info
+La fuente original (en ingles) de este tutorial se encuentra [aquí](https://tanstack.com/query/latest/docs/framework/vue/overview)
+:::
+
 TanStack Query (FKA Vue Query) a menudo se describe como la biblioteca de recuperación de datos que falta para aplicaciones web, pero en términos más técnicos, facilita la **búsqueda, el almacenamiento en caché, la sincronización y la actualización del estado del servidor** en sus aplicaciones web.
 
 ## Motivación
