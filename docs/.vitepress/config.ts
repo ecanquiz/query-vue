@@ -24,9 +24,23 @@ export default defineConfig({
         { text: 'Instalación', link: '/get-start/installation' },
         { text: 'Inicio Rápido', link: '/get-start/quick-start' }                                
       ]
+    }, {
+      text: 'Guías y Conceptos',   
+      path: '/guides-and-concepts/',
+      sidebarDepth: 1,
+      collapsible: true,
+      collapsed: false, 
+      items: [
+        { text: 'Consultas', link: '/guides-and-concepts/queries' },
+        { text: 'Mutaciones', link: '/guides-and-concepts/mutations' },
+        { text: 'Invalidación de Consultas', link: '/guides-and-concepts/query-invalidation' },        
+
+      ]
     }],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ecanquiz/tanstack-query-vue' }
     ]
   }
 })
+
+
