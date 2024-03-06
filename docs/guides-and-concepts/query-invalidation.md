@@ -1,0 +1,1 @@
+# Invalidación de Consultas
