@@ -22,7 +22,8 @@ export default defineConfig({
       items: [
         { text: 'Visión General', link: '/get-start/overview' },   
         { text: 'Instalación', link: '/get-start/installation' },
-        { text: 'Inicio Rápido', link: '/get-start/quick-start' }                                
+        { text: 'Inicio Rápido', link: '/get-start/quick-start' },
+        { text: 'Herramientas de Desarrollo', link: '/get-start/devtools' }        
       ]
     }, {
       text: 'Guías y Conceptos',   
