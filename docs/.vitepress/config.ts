@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'TanStack Query Vue',
   description: 'TDD con Vue 3.',
-  base: '/tanstack-query-vue/',
+  base: '/query-vue/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/me.jpg',
@@ -23,7 +23,9 @@ export default defineConfig({
         { text: 'Visión General', link: '/get-start/overview' },   
         { text: 'Instalación', link: '/get-start/installation' },
         { text: 'Inicio Rápido', link: '/get-start/quick-start' },
-        { text: 'Herramientas de Desarrollo', link: '/get-start/devtools' }        
+        { text: 'Herramientas de Desarrollo', link: '/get-start/devtools' },
+        { text: 'TypeScript', link: '/get-start/typescript' },
+        { text: 'Graphql', link: '/get-start/graphql' }        
       ]
     }, {
       text: 'Guías y Conceptos',   
@@ -39,7 +41,7 @@ export default defineConfig({
       ]
     }],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ecanquiz/tanstack-query-vue' }
+      { icon: 'github', link: 'https://github.com/ecanquiz/query-vue' }
     ]
   }
 })
