@@ -33,8 +33,10 @@ export default defineConfig({
       sidebarDepth: 1,
       collapsible: true,
       collapsed: false, 
-      items: [
+      items: [      
+        { text: 'Valores Por-Defecto Importantes', link: '/guides-and-concepts/important-defaults' },
         { text: 'Consultas', link: '/guides-and-concepts/queries' },
+        { text: 'Modo Red', link: '/guides-and-concepts/network-mode' },        
         { text: 'Mutaciones', link: '/guides-and-concepts/mutations' },
         { text: 'Invalidación de Consultas', link: '/guides-and-concepts/query-invalidation' },        
 
