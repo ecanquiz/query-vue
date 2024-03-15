@@ -37,9 +37,12 @@ export default defineConfig({
         { text: 'Valores Por-Defecto Importantes', link: '/guides-and-concepts/important-defaults' },
         { text: 'Consultas', link: '/guides-and-concepts/queries' },
         { text: 'Claves de Consulta', link: '/guides-and-concepts/query-keys' },
-        { text: 'Modo Red', link: '/guides-and-concepts/network-mode' },        
+        { text: 'Funciones de Consulta', link: '/guides-and-concepts/query-functions' },
+        { text: 'Modo Red', link: '/guides-and-concepts/network-mode' },
+        { text: 'Consultas Infinitas', link: '/guides-and-concepts/infinite-queries' },
         { text: 'Mutaciones', link: '/guides-and-concepts/mutations' },
-        { text: 'Invalidación de Consultas', link: '/guides-and-concepts/query-invalidation' }
+        { text: 'Invalidación de Consultas', link: '/guides-and-concepts/query-invalidation' },
+        { text: 'Cancelar Consultas', link: '/guides-and-concepts/query-cancellation' }        
       ]
     }],
     socialLinks: [
