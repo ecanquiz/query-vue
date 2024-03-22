@@ -40,6 +40,7 @@ export default defineConfig({
         { text: 'Funciones de Consulta', link: '/guides-and-concepts/query-functions' },
         { text: 'Modo Red', link: '/guides-and-concepts/network-mode' },
         { text: 'Consultas Paralelas', link: '/guides-and-concepts/parallel-queries' },
+        { text: 'Consultas Dependientes', link: '/guides-and-concepts/dependent-queries' },        
         { text: 'Consultas Infinitas', link: '/guides-and-concepts/infinite-queries' },
         { text: 'Mutaciones', link: '/guides-and-concepts/mutations' },
         { text: 'Invalidación de Consultas', link: '/guides-and-concepts/query-invalidation' },
